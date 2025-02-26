@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            background-color: rgb(218, 71, 71);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificando nacionalidade</h1>
+    <label for="text">Digite sua nacionalidade:</label>
+    <input type="text" id="text"
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res"></div>
+
+    <script>
+        // Criando função
+        function calcular() {
+            var textna = document.getElementById('text').value.trim(); // Pega o valor do input e remove espaços extras
+            var res = document.getElementById('res'); // Criando uma variável para inserir na div
+
+            // Converte o texto para minúsculas para evitar problemas de capitalização
+            var nacionalidade = textna.toLowerCase();
+
+            res.innerHTML = `<p>Sua nacionalidade é: <strong>${textna}</strong></p>`; // Mostrando a nacionalidade digitada pelo usuário
+
+            // Verificando com desvio condicional se ele é brasileiro ou estrangeiro
+            if (nacionalidade === 'brasileiro' || nacionalidade === 'br') {
+                res.innerHTML += '<p>Você é <strong>brasileiro</strong>.</p>';
+            } else {
+                res.innerHTML += '<p>Você é <strong>estrangeiro</strong>.</p>';
+            }
+        }               
+    </script>
+</body>
+</html>

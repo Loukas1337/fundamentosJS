@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exec</title>
+        <style>
+            body {
+                background-color: rgb(138, 129, 129);
+            }
+            h1{
+                text-align: center;
+                padding: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            // Loop até que o usuário digite um número válido
+            while (true) {
+                let entrada = prompt("Digite um número:");
+                let numero = parseInt(entrada); // Converte a string digitada pelo usuário em um número inteiro
+
+                // Verifica se a entrada é um número válido
+                if (!isNaN(numero)) {
+                    if (numero % 2 ===0){
+                    alert(`O numero ${numero} é par.`)
+                }else {
+                    alert(`O número ${numero} é impar.`)
+                } 
+                break; // Sai do loop se for um número válido
+                } else{
+                    alert('Entrada inválida. Digite um número!')
+                }}
+
+        </script>
+    </body>
+</html>

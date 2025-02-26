@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tratamento de dados</title>
+    <style>
+      body {
+        background-color: gray;
+        color: rgb(0, 0, 0);
+        font: normal 20pt Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>olá JS</h1>
+    <p>A zika foi quebrada</p>
+
+    <!-- Tag script para conter o JS -->
+    <script>
+      var nome = window.prompt("Qual seu nome? ")
+      document.write(`Olá, <strong> ${nome}</strong>! Seu nome tem ${nome.length} letras.<br></br>`)
+      document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br></br>`)
+      document.write(`Seu nome em minúsculas é ${nome.toLocaleLowerCase()}`)
+    </script>
+  </body>
+</html>

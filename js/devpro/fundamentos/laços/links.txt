@@ -1,0 +1,16 @@
+Para testar os exercícios, será necessário ter instalado alguma ferramenta que interprete códigos javaScript (NodeJS por exemplo).
+Links de onde os exercícios foram tirados:
+
+Laços:
+Exercícios 1, 2, 3, 4, 5, 6, 7, 8
+Link: https://awari.com.br/10-exercicios-divertidos-de-funcoes-em-javascript-para-voce-praticar/
+
+ Adicionais (execad1, execad2...):
+ Link: https://awari.com.br/10-exercicios-divertidos-de-funcoes-em-javascript-para-voce-praticar/
+
+Desafiadores (execdesafiador1, execdesafiador2...):
+ Link: https://awari.com.br/10-exercicios-divertidos-de-funcoes-em-javascript-para-voce-praticar/
+
+Callback
+
+link:
